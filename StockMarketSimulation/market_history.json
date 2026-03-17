@@ -1,0 +1,1702 @@
+{
+    "1": {
+        "dayNumber": 1,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 90.5,
+                "volume": 137839259
+            },
+            "ARCLK.IS": {
+                "price": 127.9,
+                "volume": 5245970
+            },
+            "ASELS.IS": {
+                "price": 310.25,
+                "volume": 83188891
+            },
+            "ASTOR.IS": {
+                "price": 186.8,
+                "volume": 77427343
+            },
+            "BIMAS.IS": {
+                "price": 705.0,
+                "volume": 9589362
+            },
+            "BRYAT.IS": {
+                "price": 2530.0,
+                "volume": 234090
+            },
+            "FROTO.IS": {
+                "price": 119.79,
+                "volume": 24942007
+            },
+            "GARAN.IS": {
+                "price": 161.1,
+                "volume": 41855195
+            },
+            "HALKB.IS": {
+                "price": 48.66,
+                "volume": 56691898
+            },
+            "ISCTR.IS": {
+                "price": 17.54,
+                "volume": 950056726
+            },
+            "PETKM.IS": {
+                "price": 18.5,
+                "volume": 108567558
+            },
+            "PGSUS.IS": {
+                "price": 211.0,
+                "volume": 56037000
+            },
+            "SAHOL.IS": {
+                "price": 109.0,
+                "volume": 61957140
+            },
+            "SASA.IS": {
+                "price": 2.6,
+                "volume": 0
+            },
+            "SISE.IS": {
+                "price": 46.34,
+                "volume": 172354980
+            },
+            "TAVHL.IS": {
+                "price": 338.75,
+                "volume": 5994909
+            },
+            "THYAO.IS": {
+                "price": 328.25,
+                "volume": 94434599
+            },
+            "TOASO.IS": {
+                "price": 335.25,
+                "volume": 4612932
+            },
+            "TUPRS.IS": {
+                "price": 213.35,
+                "volume": 38748424
+            },
+            "YKBNK.IS": {
+                "price": 43.18,
+                "volume": 205607711
+            }
+        }
+    },
+    "2": {
+        "dayNumber": 2,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 87.0,
+                "volume": 103799361
+            },
+            "ARCLK.IS": {
+                "price": 120.8,
+                "volume": 4255558
+            },
+            "ASELS.IS": {
+                "price": 307.0,
+                "volume": 74721661
+            },
+            "ASTOR.IS": {
+                "price": 185.0,
+                "volume": 35271524
+            },
+            "BIMAS.IS": {
+                "price": 690.0,
+                "volume": 6840224
+            },
+            "BRYAT.IS": {
+                "price": 2380.0,
+                "volume": 145832
+            },
+            "FROTO.IS": {
+                "price": 116.79,
+                "volume": 20531683
+            },
+            "GARAN.IS": {
+                "price": 155.2,
+                "volume": 30009984
+            },
+            "HALKB.IS": {
+                "price": 47.3,
+                "volume": 45708234
+            },
+            "ISCTR.IS": {
+                "price": 16.47,
+                "volume": 887535461
+            },
+            "PETKM.IS": {
+                "price": 17.38,
+                "volume": 64251069
+            },
+            "PGSUS.IS": {
+                "price": 202.0,
+                "volume": 40688280
+            },
+            "SAHOL.IS": {
+                "price": 104.1,
+                "volume": 41406118
+            },
+            "SASA.IS": {
+                "price": 2.52,
+                "volume": 0
+            },
+            "SISE.IS": {
+                "price": 44.8,
+                "volume": 91802168
+            },
+            "TAVHL.IS": {
+                "price": 323.0,
+                "volume": 4511484
+            },
+            "THYAO.IS": {
+                "price": 312.5,
+                "volume": 81994623
+            },
+            "TOASO.IS": {
+                "price": 330.75,
+                "volume": 4448093
+            },
+            "TUPRS.IS": {
+                "price": 212.77,
+                "volume": 48542887
+            },
+            "YKBNK.IS": {
+                "price": 41.16,
+                "volume": 227421183
+            }
+        }
+    },
+    "3": {
+        "dayNumber": 3,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 88.35,
+                "volume": 93436385
+            },
+            "ARCLK.IS": {
+                "price": 120.5,
+                "volume": 2708809
+            },
+            "ASELS.IS": {
+                "price": 313.25,
+                "volume": 42689070
+            },
+            "ASTOR.IS": {
+                "price": 184.5,
+                "volume": 23230193
+            },
+            "BIMAS.IS": {
+                "price": 684.0,
+                "volume": 5628151
+            },
+            "BRYAT.IS": {
+                "price": 2432.0,
+                "volume": 113608
+            },
+            "FROTO.IS": {
+                "price": 117.28,
+                "volume": 12234686
+            },
+            "GARAN.IS": {
+                "price": 157.7,
+                "volume": 22921972
+            },
+            "HALKB.IS": {
+                "price": 49.1,
+                "volume": 66760551
+            },
+            "ISCTR.IS": {
+                "price": 16.82,
+                "volume": 647636743
+            },
+            "PETKM.IS": {
+                "price": 17.39,
+                "volume": 51745238
+            },
+            "PGSUS.IS": {
+                "price": 204.2,
+                "volume": 32137310
+            },
+            "SAHOL.IS": {
+                "price": 105.3,
+                "volume": 36644195
+            },
+            "SASA.IS": {
+                "price": 2.42,
+                "volume": 0
+            },
+            "SISE.IS": {
+                "price": 46.0,
+                "volume": 107637359
+            },
+            "TAVHL.IS": {
+                "price": 328.75,
+                "volume": 2317383
+            },
+            "THYAO.IS": {
+                "price": 320.5,
+                "volume": 49745507
+            },
+            "TOASO.IS": {
+                "price": 331.25,
+                "volume": 2771963
+            },
+            "TUPRS.IS": {
+                "price": 212.87,
+                "volume": 28777488
+            },
+            "YKBNK.IS": {
+                "price": 42.0,
+                "volume": 165291655
+            }
+        }
+    },
+    "4": {
+        "dayNumber": 4,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 90.35,
+                "volume": 134597261
+            },
+            "ARCLK.IS": {
+                "price": 124.4,
+                "volume": 3735666
+            },
+            "ASELS.IS": {
+                "price": 310.5,
+                "volume": 35880813
+            },
+            "ASTOR.IS": {
+                "price": 192.4,
+                "volume": 41385979
+            },
+            "BIMAS.IS": {
+                "price": 689.0,
+                "volume": 5175401
+            },
+            "BRYAT.IS": {
+                "price": 2572.5,
+                "volume": 188849
+            },
+            "FROTO.IS": {
+                "price": 116.6,
+                "volume": 19620689
+            },
+            "GARAN.IS": {
+                "price": 158.4,
+                "volume": 33077680
+            },
+            "HALKB.IS": {
+                "price": 50.35,
+                "volume": 62891880
+            },
+            "ISCTR.IS": {
+                "price": 17.3,
+                "volume": 828970777
+            },
+            "PETKM.IS": {
+                "price": 18.0,
+                "volume": 74802261
+            },
+            "PGSUS.IS": {
+                "price": 203.3,
+                "volume": 22981091
+            },
+            "SAHOL.IS": {
+                "price": 106.3,
+                "volume": 35559974
+            },
+            "SASA.IS": {
+                "price": 2.43,
+                "volume": 958704080
+            },
+            "SISE.IS": {
+                "price": 47.0,
+                "volume": 79503932
+            },
+            "TAVHL.IS": {
+                "price": 327.75,
+                "volume": 2028374
+            },
+            "THYAO.IS": {
+                "price": 315.75,
+                "volume": 58340211
+            },
+            "TOASO.IS": {
+                "price": 333.5,
+                "volume": 3205760
+            },
+            "TUPRS.IS": {
+                "price": 218.06,
+                "volume": 29764395
+            },
+            "YKBNK.IS": {
+                "price": 43.18,
+                "volume": 160162512
+            }
+        }
+    },
+    "5": {
+        "dayNumber": 5,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 91.55,
+                "volume": 98805414
+            },
+            "ARCLK.IS": {
+                "price": 121.0,
+                "volume": 2853950
+            },
+            "ASELS.IS": {
+                "price": 309.0,
+                "volume": 32333409
+            },
+            "ASTOR.IS": {
+                "price": 194.3,
+                "volume": 35591327
+            },
+            "BIMAS.IS": {
+                "price": 690.5,
+                "volume": 4830183
+            },
+            "BRYAT.IS": {
+                "price": 2580.0,
+                "volume": 163096
+            },
+            "FROTO.IS": {
+                "price": 115.63,
+                "volume": 11239165
+            },
+            "GARAN.IS": {
+                "price": 159.5,
+                "volume": 33867997
+            },
+            "HALKB.IS": {
+                "price": 49.7,
+                "volume": 66152196
+            },
+            "ISCTR.IS": {
+                "price": 17.19,
+                "volume": 595157028
+            },
+            "PETKM.IS": {
+                "price": 17.97,
+                "volume": 44509957
+            },
+            "PGSUS.IS": {
+                "price": 199.7,
+                "volume": 21929017
+            },
+            "SAHOL.IS": {
+                "price": 106.3,
+                "volume": 47054071
+            },
+            "SASA.IS": {
+                "price": 2.4,
+                "volume": 645601303
+            },
+            "SISE.IS": {
+                "price": 46.28,
+                "volume": 70098522
+            },
+            "TAVHL.IS": {
+                "price": 320.0,
+                "volume": 1832789
+            },
+            "THYAO.IS": {
+                "price": 308.5,
+                "volume": 60541603
+            },
+            "TOASO.IS": {
+                "price": 330.5,
+                "volume": 3273462
+            },
+            "TUPRS.IS": {
+                "price": 213.25,
+                "volume": 28611549
+            },
+            "YKBNK.IS": {
+                "price": 43.02,
+                "volume": 174209495
+            }
+        }
+    },
+    "6": {
+        "dayNumber": 6,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 91.0,
+                "volume": 111915545
+            },
+            "ARCLK.IS": {
+                "price": 118.8,
+                "volume": 2549977
+            },
+            "ASELS.IS": {
+                "price": 306.25,
+                "volume": 59100784
+            },
+            "ASTOR.IS": {
+                "price": 191.0,
+                "volume": 34808499
+            },
+            "BIMAS.IS": {
+                "price": 683.5,
+                "volume": 3912230
+            },
+            "BRYAT.IS": {
+                "price": 2479.0,
+                "volume": 100158
+            },
+            "FROTO.IS": {
+                "price": 113.21,
+                "volume": 11549630
+            },
+            "GARAN.IS": {
+                "price": 160.2,
+                "volume": 34267899
+            },
+            "HALKB.IS": {
+                "price": 49.4,
+                "volume": 83341660
+            },
+            "ISCTR.IS": {
+                "price": 16.95,
+                "volume": 727630322
+            },
+            "PETKM.IS": {
+                "price": 17.65,
+                "volume": 37269812
+            },
+            "PGSUS.IS": {
+                "price": 198.3,
+                "volume": 20084626
+            },
+            "SAHOL.IS": {
+                "price": 103.7,
+                "volume": 40579235
+            },
+            "SASA.IS": {
+                "price": 2.37,
+                "volume": 490952443
+            },
+            "SISE.IS": {
+                "price": 45.74,
+                "volume": 48909857
+            },
+            "TAVHL.IS": {
+                "price": 323.0,
+                "volume": 2224362
+            },
+            "THYAO.IS": {
+                "price": 307.0,
+                "volume": 36524474
+            },
+            "TOASO.IS": {
+                "price": 321.25,
+                "volume": 3772235
+            },
+            "TUPRS.IS": {
+                "price": 209.12,
+                "volume": 21523285
+            },
+            "YKBNK.IS": {
+                "price": 43.2,
+                "volume": 163800428
+            }
+        }
+    },
+    "7": {
+        "dayNumber": 7,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 91.7,
+                "volume": 78520727
+            },
+            "ARCLK.IS": {
+                "price": 118.6,
+                "volume": 2672692
+            },
+            "ASELS.IS": {
+                "price": 311.0,
+                "volume": 34047361
+            },
+            "ASTOR.IS": {
+                "price": 185.0,
+                "volume": 35783763
+            },
+            "BIMAS.IS": {
+                "price": 677.5,
+                "volume": 5358197
+            },
+            "BRYAT.IS": {
+                "price": 2512.5,
+                "volume": 82647
+            },
+            "FROTO.IS": {
+                "price": 114.66,
+                "volume": 11811512
+            },
+            "GARAN.IS": {
+                "price": 163.9,
+                "volume": 27157685
+            },
+            "HALKB.IS": {
+                "price": 49.92,
+                "volume": 66126607
+            },
+            "ISCTR.IS": {
+                "price": 17.2,
+                "volume": 627755791
+            },
+            "PETKM.IS": {
+                "price": 17.72,
+                "volume": 57600341
+            },
+            "PGSUS.IS": {
+                "price": 202.2,
+                "volume": 25662235
+            },
+            "SAHOL.IS": {
+                "price": 105.0,
+                "volume": 35534556
+            },
+            "SASA.IS": {
+                "price": 2.43,
+                "volume": 0
+            },
+            "SISE.IS": {
+                "price": 46.04,
+                "volume": 40426468
+            },
+            "TAVHL.IS": {
+                "price": 326.0,
+                "volume": 2793899
+            },
+            "THYAO.IS": {
+                "price": 311.5,
+                "volume": 68383970
+            },
+            "TOASO.IS": {
+                "price": 322.5,
+                "volume": 2813419
+            },
+            "TUPRS.IS": {
+                "price": 207.4,
+                "volume": 23197735
+            },
+            "YKBNK.IS": {
+                "price": 44.02,
+                "volume": 174544651
+            }
+        }
+    },
+    "8": {
+        "dayNumber": 8,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 90.15,
+                "volume": 114684024
+            },
+            "ARCLK.IS": {
+                "price": 115.2,
+                "volume": 3888551
+            },
+            "ASELS.IS": {
+                "price": 322.0,
+                "volume": 73945610
+            },
+            "ASTOR.IS": {
+                "price": 188.0,
+                "volume": 47514623
+            },
+            "BIMAS.IS": {
+                "price": 667.5,
+                "volume": 8792595
+            },
+            "BRYAT.IS": {
+                "price": 2290.0,
+                "volume": 175825
+            },
+            "FROTO.IS": {
+                "price": 112.05,
+                "volume": 20584615
+            },
+            "GARAN.IS": {
+                "price": 160.1,
+                "volume": 47545032
+            },
+            "HALKB.IS": {
+                "price": 49.0,
+                "volume": 72069803
+            },
+            "ISCTR.IS": {
+                "price": 16.91,
+                "volume": 694302306
+            },
+            "PETKM.IS": {
+                "price": 17.29,
+                "volume": 56521092
+            },
+            "PGSUS.IS": {
+                "price": 196.5,
+                "volume": 28260028
+            },
+            "SAHOL.IS": {
+                "price": 100.8,
+                "volume": 66871999
+            },
+            "SASA.IS": {
+                "price": 2.47,
+                "volume": 0
+            },
+            "SISE.IS": {
+                "price": 44.86,
+                "volume": 73844335
+            },
+            "TAVHL.IS": {
+                "price": 309.0,
+                "volume": 4540930
+            },
+            "THYAO.IS": {
+                "price": 307.5,
+                "volume": 60671396
+            },
+            "TOASO.IS": {
+                "price": 318.0,
+                "volume": 3128248
+            },
+            "TUPRS.IS": {
+                "price": 209.89,
+                "volume": 30856689
+            },
+            "YKBNK.IS": {
+                "price": 43.3,
+                "volume": 197069782
+            }
+        }
+    },
+    "9": {
+        "dayNumber": 9,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 82.75,
+                "volume": 98769212
+            },
+            "ARCLK.IS": {
+                "price": 110.9,
+                "volume": 2644514
+            },
+            "ASELS.IS": {
+                "price": 340.0,
+                "volume": 58565606
+            },
+            "ASTOR.IS": {
+                "price": 180.7,
+                "volume": 25140293
+            },
+            "BIMAS.IS": {
+                "price": 674.5,
+                "volume": 6640500
+            },
+            "BRYAT.IS": {
+                "price": 2190.0,
+                "volume": 142201
+            },
+            "FROTO.IS": {
+                "price": 107.99,
+                "volume": 12792189
+            },
+            "GARAN.IS": {
+                "price": 146.3,
+                "volume": 46915066
+            },
+            "HALKB.IS": {
+                "price": 49.6,
+                "volume": 70736345
+            },
+            "ISCTR.IS": {
+                "price": 15.77,
+                "volume": 481721909
+            },
+            "PETKM.IS": {
+                "price": 17.85,
+                "volume": 145547318
+            },
+            "PGSUS.IS": {
+                "price": 185.1,
+                "volume": 20724671
+            },
+            "SAHOL.IS": {
+                "price": 96.05,
+                "volume": 48371323
+            },
+            "SASA.IS": {
+                "price": 2.35,
+                "volume": 389828839
+            },
+            "SISE.IS": {
+                "price": 42.44,
+                "volume": 56382551
+            },
+            "TAVHL.IS": {
+                "price": 303.75,
+                "volume": 4690830
+            },
+            "THYAO.IS": {
+                "price": 289.0,
+                "volume": 54215665
+            },
+            "TOASO.IS": {
+                "price": 313.75,
+                "volume": 2404748
+            },
+            "TUPRS.IS": {
+                "price": 215.94,
+                "volume": 50537426
+            },
+            "YKBNK.IS": {
+                "price": 39.52,
+                "volume": 190972253
+            }
+        }
+    },
+    "10": {
+        "dayNumber": 10,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 78.9,
+                "volume": 106917553
+            },
+            "ARCLK.IS": {
+                "price": 109.1,
+                "volume": 2379720
+            },
+            "ASELS.IS": {
+                "price": 322.25,
+                "volume": 36583772
+            },
+            "ASTOR.IS": {
+                "price": 175.5,
+                "volume": 27737980
+            },
+            "BIMAS.IS": {
+                "price": 653.0,
+                "volume": 5744345
+            },
+            "BRYAT.IS": {
+                "price": 2204.0,
+                "volume": 106655
+            },
+            "FROTO.IS": {
+                "price": 104.9,
+                "volume": 9127332
+            },
+            "GARAN.IS": {
+                "price": 137.6,
+                "volume": 35428017
+            },
+            "HALKB.IS": {
+                "price": 45.34,
+                "volume": 94344887
+            },
+            "ISCTR.IS": {
+                "price": 14.83,
+                "volume": 460743393
+            },
+            "PETKM.IS": {
+                "price": 19.15,
+                "volume": 171690204
+            },
+            "PGSUS.IS": {
+                "price": 181.4,
+                "volume": 22148228
+            },
+            "SAHOL.IS": {
+                "price": 92.0,
+                "volume": 47692796
+            },
+            "SASA.IS": {
+                "price": 2.28,
+                "volume": 572446141
+            },
+            "SISE.IS": {
+                "price": 41.2,
+                "volume": 42433822
+            },
+            "TAVHL.IS": {
+                "price": 293.75,
+                "volume": 2914908
+            },
+            "THYAO.IS": {
+                "price": 287.0,
+                "volume": 42900149
+            },
+            "TOASO.IS": {
+                "price": 302.5,
+                "volume": 3256661
+            },
+            "TUPRS.IS": {
+                "price": 225.74,
+                "volume": 56798538
+            },
+            "YKBNK.IS": {
+                "price": 37.08,
+                "volume": 243310018
+            }
+        }
+    },
+    "11": {
+        "dayNumber": 11,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 78.45,
+                "volume": 122155687
+            },
+            "ARCLK.IS": {
+                "price": 111.4,
+                "volume": 2707594
+            },
+            "ASELS.IS": {
+                "price": 333.0,
+                "volume": 46372048
+            },
+            "ASTOR.IS": {
+                "price": 167.0,
+                "volume": 33185595
+            },
+            "BIMAS.IS": {
+                "price": 659.5,
+                "volume": 6110471
+            },
+            "BRYAT.IS": {
+                "price": 2173.0,
+                "volume": 87884
+            },
+            "FROTO.IS": {
+                "price": 104.22,
+                "volume": 14707685
+            },
+            "GARAN.IS": {
+                "price": 138.6,
+                "volume": 32739963
+            },
+            "HALKB.IS": {
+                "price": 42.44,
+                "volume": 72195075
+            },
+            "ISCTR.IS": {
+                "price": 14.8,
+                "volume": 616805359
+            },
+            "PETKM.IS": {
+                "price": 18.67,
+                "volume": 151881343
+            },
+            "PGSUS.IS": {
+                "price": 181.8,
+                "volume": 19770456
+            },
+            "SAHOL.IS": {
+                "price": 93.8,
+                "volume": 46770796
+            },
+            "SASA.IS": {
+                "price": 2.29,
+                "volume": 209238112
+            },
+            "SISE.IS": {
+                "price": 41.22,
+                "volume": 43440096
+            },
+            "TAVHL.IS": {
+                "price": 305.75,
+                "volume": 2997735
+            },
+            "THYAO.IS": {
+                "price": 287.75,
+                "volume": 46550560
+            },
+            "TOASO.IS": {
+                "price": 290.0,
+                "volume": 5592123
+            },
+            "TUPRS.IS": {
+                "price": 221.9,
+                "volume": 39760100
+            },
+            "YKBNK.IS": {
+                "price": 36.82,
+                "volume": 184993729
+            }
+        }
+    },
+    "12": {
+        "dayNumber": 12,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 79.6,
+                "volume": 52412668
+            },
+            "ARCLK.IS": {
+                "price": 112.2,
+                "volume": 1331256
+            },
+            "ASELS.IS": {
+                "price": 345.0,
+                "volume": 46519728
+            },
+            "ASTOR.IS": {
+                "price": 173.5,
+                "volume": 22905663
+            },
+            "BIMAS.IS": {
+                "price": 645.0,
+                "volume": 4093887
+            },
+            "BRYAT.IS": {
+                "price": 2216.0,
+                "volume": 89816
+            },
+            "FROTO.IS": {
+                "price": 107.7,
+                "volume": 11061522
+            },
+            "GARAN.IS": {
+                "price": 140.2,
+                "volume": 20921427
+            },
+            "HALKB.IS": {
+                "price": 42.8,
+                "volume": 32236357
+            },
+            "ISCTR.IS": {
+                "price": 14.98,
+                "volume": 350463694
+            },
+            "PETKM.IS": {
+                "price": 19.38,
+                "volume": 141029439
+            },
+            "PGSUS.IS": {
+                "price": 180.7,
+                "volume": 12212759
+            },
+            "SAHOL.IS": {
+                "price": 93.4,
+                "volume": 38577759
+            },
+            "SASA.IS": {
+                "price": 2.28,
+                "volume": 929766865
+            },
+            "SISE.IS": {
+                "price": 41.22,
+                "volume": 30098302
+            },
+            "TAVHL.IS": {
+                "price": 302.5,
+                "volume": 2628146
+            },
+            "THYAO.IS": {
+                "price": 284.25,
+                "volume": 42754331
+            },
+            "TOASO.IS": {
+                "price": 295.0,
+                "volume": 4004700
+            },
+            "TUPRS.IS": {
+                "price": 237.08,
+                "volume": 45689115
+            },
+            "YKBNK.IS": {
+                "price": 37.38,
+                "volume": 117683000
+            }
+        }
+    },
+    "13": {
+        "dayNumber": 13,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 74.05,
+                "volume": 118526833
+            },
+            "ARCLK.IS": {
+                "price": 109.0,
+                "volume": 1447708
+            },
+            "ASELS.IS": {
+                "price": 333.5,
+                "volume": 34172215
+            },
+            "ASTOR.IS": {
+                "price": 176.7,
+                "volume": 18319103
+            },
+            "BIMAS.IS": {
+                "price": 621.0,
+                "volume": 5508779
+            },
+            "BRYAT.IS": {
+                "price": 2199.0,
+                "volume": 212550
+            },
+            "FROTO.IS": {
+                "price": 104.9,
+                "volume": 9780415
+            },
+            "GARAN.IS": {
+                "price": 135.5,
+                "volume": 22912198
+            },
+            "HALKB.IS": {
+                "price": 43.4,
+                "volume": 38474967
+            },
+            "ISCTR.IS": {
+                "price": 14.22,
+                "volume": 475556085
+            },
+            "PETKM.IS": {
+                "price": 18.4,
+                "volume": 160836694
+            },
+            "PGSUS.IS": {
+                "price": 177.2,
+                "volume": 16142232
+            },
+            "SAHOL.IS": {
+                "price": 90.0,
+                "volume": 32630089
+            },
+            "SASA.IS": {
+                "price": 2.22,
+                "volume": 992706811
+            },
+            "SISE.IS": {
+                "price": 40.4,
+                "volume": 31872698
+            },
+            "TAVHL.IS": {
+                "price": 291.25,
+                "volume": 2899121
+            },
+            "THYAO.IS": {
+                "price": 276.75,
+                "volume": 56263294
+            },
+            "TOASO.IS": {
+                "price": 290.0,
+                "volume": 4096866
+            },
+            "TUPRS.IS": {
+                "price": 247.84,
+                "volume": 60993877
+            },
+            "YKBNK.IS": {
+                "price": 35.36,
+                "volume": 145961159
+            }
+        }
+    },
+    "14": {
+        "dayNumber": 14,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 73.6,
+                "volume": 168363803
+            },
+            "ARCLK.IS": {
+                "price": 107.6,
+                "volume": 2244723
+            },
+            "ASELS.IS": {
+                "price": 319.0,
+                "volume": 36349526
+            },
+            "ASTOR.IS": {
+                "price": 180.9,
+                "volume": 27923287
+            },
+            "BIMAS.IS": {
+                "price": 639.5,
+                "volume": 5835692
+            },
+            "BRYAT.IS": {
+                "price": 2151.0,
+                "volume": 115859
+            },
+            "FROTO.IS": {
+                "price": 105.29,
+                "volume": 12365452
+            },
+            "GARAN.IS": {
+                "price": 135.9,
+                "volume": 27708713
+            },
+            "HALKB.IS": {
+                "price": 47.74,
+                "volume": 97061706
+            },
+            "ISCTR.IS": {
+                "price": 14.07,
+                "volume": 774852479
+            },
+            "PETKM.IS": {
+                "price": 17.63,
+                "volume": 148468173
+            },
+            "PGSUS.IS": {
+                "price": 173.6,
+                "volume": 27347010
+            },
+            "SAHOL.IS": {
+                "price": 91.05,
+                "volume": 46491562
+            },
+            "SASA.IS": {
+                "price": 2.18,
+                "volume": 474062843
+            },
+            "SISE.IS": {
+                "price": 40.58,
+                "volume": 34556364
+            },
+            "TAVHL.IS": {
+                "price": 286.25,
+                "volume": 2476649
+            },
+            "THYAO.IS": {
+                "price": 282.0,
+                "volume": 51377626
+            },
+            "TOASO.IS": {
+                "price": 289.0,
+                "volume": 3274866
+            },
+            "TUPRS.IS": {
+                "price": 240.39,
+                "volume": 64828848
+            },
+            "YKBNK.IS": {
+                "price": 34.9,
+                "volume": 212159667
+            }
+        }
+    },
+    "15": {
+        "dayNumber": 15,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 77.1,
+                "volume": 95851404
+            },
+            "ARCLK.IS": {
+                "price": 114.0,
+                "volume": 1765666
+            },
+            "ASELS.IS": {
+                "price": 334.25,
+                "volume": 30058029
+            },
+            "ASTOR.IS": {
+                "price": 195.1,
+                "volume": 33878681
+            },
+            "BIMAS.IS": {
+                "price": 652.5,
+                "volume": 4570499
+            },
+            "BRYAT.IS": {
+                "price": 2315.0,
+                "volume": 201323
+            },
+            "FROTO.IS": {
+                "price": 108.38,
+                "volume": 19430184
+            },
+            "GARAN.IS": {
+                "price": 141.1,
+                "volume": 28058059
+            },
+            "HALKB.IS": {
+                "price": 49.24,
+                "volume": 114822360
+            },
+            "ISCTR.IS": {
+                "price": 14.75,
+                "volume": 649833663
+            },
+            "PETKM.IS": {
+                "price": 17.77,
+                "volume": 88180872
+            },
+            "PGSUS.IS": {
+                "price": 179.4,
+                "volume": 25306922
+            },
+            "SAHOL.IS": {
+                "price": 95.7,
+                "volume": 44360261
+            },
+            "SASA.IS": {
+                "price": 2.26,
+                "volume": 156278287
+            },
+            "SISE.IS": {
+                "price": 42.16,
+                "volume": 39504441
+            },
+            "TAVHL.IS": {
+                "price": 300.75,
+                "volume": 1884584
+            },
+            "THYAO.IS": {
+                "price": 297.0,
+                "volume": 61941889
+            },
+            "TOASO.IS": {
+                "price": 304.25,
+                "volume": 3595921
+            },
+            "TUPRS.IS": {
+                "price": 238.23,
+                "volume": 62050964
+            },
+            "YKBNK.IS": {
+                "price": 37.0,
+                "volume": 186691324
+            }
+        }
+    },
+    "16": {
+        "dayNumber": 16,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 77.55,
+                "volume": 96519339
+            },
+            "ARCLK.IS": {
+                "price": 113.1,
+                "volume": 1483431
+            },
+            "ASELS.IS": {
+                "price": 335.75,
+                "volume": 19131976
+            },
+            "ASTOR.IS": {
+                "price": 193.0,
+                "volume": 17923018
+            },
+            "BIMAS.IS": {
+                "price": 694.5,
+                "volume": 10488660
+            },
+            "BRYAT.IS": {
+                "price": 2255.0,
+                "volume": 108518
+            },
+            "FROTO.IS": {
+                "price": 107.9,
+                "volume": 12361125
+            },
+            "GARAN.IS": {
+                "price": 139.3,
+                "volume": 18675064
+            },
+            "HALKB.IS": {
+                "price": 46.58,
+                "volume": 116460892
+            },
+            "ISCTR.IS": {
+                "price": 14.6,
+                "volume": 437914046
+            },
+            "PETKM.IS": {
+                "price": 17.76,
+                "volume": 74068987
+            },
+            "PGSUS.IS": {
+                "price": 180.0,
+                "volume": 13373576
+            },
+            "SAHOL.IS": {
+                "price": 96.0,
+                "volume": 25985849
+            },
+            "SASA.IS": {
+                "price": 2.2,
+                "volume": 448070971
+            },
+            "SISE.IS": {
+                "price": 41.94,
+                "volume": 27369030
+            },
+            "TAVHL.IS": {
+                "price": 302.5,
+                "volume": 2080254
+            },
+            "THYAO.IS": {
+                "price": 294.75,
+                "volume": 40619946
+            },
+            "TOASO.IS": {
+                "price": 304.5,
+                "volume": 2923209
+            },
+            "TUPRS.IS": {
+                "price": 238.52,
+                "volume": 45119752
+            },
+            "YKBNK.IS": {
+                "price": 36.64,
+                "volume": 166908961
+            }
+        }
+    },
+    "17": {
+        "dayNumber": 17,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 75.75,
+                "volume": 145752390
+            },
+            "ARCLK.IS": {
+                "price": 111.8,
+                "volume": 1845324
+            },
+            "ASELS.IS": {
+                "price": 330.0,
+                "volume": 23419978
+            },
+            "ASTOR.IS": {
+                "price": 199.5,
+                "volume": 43598729
+            },
+            "BIMAS.IS": {
+                "price": 708.5,
+                "volume": 8743224
+            },
+            "BRYAT.IS": {
+                "price": 2260.0,
+                "volume": 101011
+            },
+            "FROTO.IS": {
+                "price": 108.28,
+                "volume": 12887941
+            },
+            "GARAN.IS": {
+                "price": 137.9,
+                "volume": 26859548
+            },
+            "HALKB.IS": {
+                "price": 44.14,
+                "volume": 65438478
+            },
+            "ISCTR.IS": {
+                "price": 14.37,
+                "volume": 617062045
+            },
+            "PETKM.IS": {
+                "price": 18.9,
+                "volume": 147280114
+            },
+            "PGSUS.IS": {
+                "price": 179.0,
+                "volume": 15562808
+            },
+            "SAHOL.IS": {
+                "price": 95.6,
+                "volume": 34395618
+            },
+            "SASA.IS": {
+                "price": 2.42,
+                "volume": 0
+            },
+            "SISE.IS": {
+                "price": 42.0,
+                "volume": 29995313
+            },
+            "TAVHL.IS": {
+                "price": 297.25,
+                "volume": 1849568
+            },
+            "THYAO.IS": {
+                "price": 292.75,
+                "volume": 41475379
+            },
+            "TOASO.IS": {
+                "price": 305.75,
+                "volume": 3031307
+            },
+            "TUPRS.IS": {
+                "price": 254.32,
+                "volume": 48446845
+            },
+            "YKBNK.IS": {
+                "price": 35.86,
+                "volume": 229621125
+            }
+        }
+    },
+    "18": {
+        "dayNumber": 18,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 72.55,
+                "volume": 124021617
+            },
+            "ARCLK.IS": {
+                "price": 111.8,
+                "volume": 1831562
+            },
+            "ASELS.IS": {
+                "price": 322.25,
+                "volume": 22428192
+            },
+            "ASTOR.IS": {
+                "price": 194.9,
+                "volume": 19795790
+            },
+            "BIMAS.IS": {
+                "price": 707.0,
+                "volume": 4379863
+            },
+            "BRYAT.IS": {
+                "price": 2201.0,
+                "volume": 71734
+            },
+            "FROTO.IS": {
+                "price": 106.06,
+                "volume": 11431831
+            },
+            "GARAN.IS": {
+                "price": 132.8,
+                "volume": 25704709
+            },
+            "HALKB.IS": {
+                "price": 41.52,
+                "volume": 63233198
+            },
+            "ISCTR.IS": {
+                "price": 14.07,
+                "volume": 508833601
+            },
+            "PETKM.IS": {
+                "price": 20.14,
+                "volume": 197479689
+            },
+            "PGSUS.IS": {
+                "price": 177.3,
+                "volume": 11289915
+            },
+            "SAHOL.IS": {
+                "price": 94.9,
+                "volume": 26081172
+            },
+            "SASA.IS": {
+                "price": 2.46,
+                "volume": 0
+            },
+            "SISE.IS": {
+                "price": 41.58,
+                "volume": 27514359
+            },
+            "TAVHL.IS": {
+                "price": 296.75,
+                "volume": 1438532
+            },
+            "THYAO.IS": {
+                "price": 292.25,
+                "volume": 26218061
+            },
+            "TOASO.IS": {
+                "price": 310.5,
+                "volume": 2965129
+            },
+            "TUPRS.IS": {
+                "price": 253.12,
+                "volume": 42790781
+            },
+            "YKBNK.IS": {
+                "price": 34.8,
+                "volume": 141415199
+            }
+        }
+    },
+    "19": {
+        "dayNumber": 19,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 72.7,
+                "volume": 81045986
+            },
+            "ARCLK.IS": {
+                "price": 113.0,
+                "volume": 1588659
+            },
+            "ASELS.IS": {
+                "price": 320.5,
+                "volume": 18105422
+            },
+            "ASTOR.IS": {
+                "price": 186.0,
+                "volume": 17895195
+            },
+            "BIMAS.IS": {
+                "price": 683.0,
+                "volume": 4413826
+            },
+            "BRYAT.IS": {
+                "price": 2270.0,
+                "volume": 79970
+            },
+            "FROTO.IS": {
+                "price": 105.6,
+                "volume": 7014624
+            },
+            "GARAN.IS": {
+                "price": 134.1,
+                "volume": 29162251
+            },
+            "HALKB.IS": {
+                "price": 39.7,
+                "volume": 52038058
+            },
+            "ISCTR.IS": {
+                "price": 14.11,
+                "volume": 358887825
+            },
+            "PETKM.IS": {
+                "price": 19.8,
+                "volume": 116469692
+            },
+            "PGSUS.IS": {
+                "price": 176.9,
+                "volume": 7860643
+            },
+            "SAHOL.IS": {
+                "price": 94.05,
+                "volume": 31220119
+            },
+            "SASA.IS": {
+                "price": 2.48,
+                "volume": 0
+            },
+            "SISE.IS": {
+                "price": 42.48,
+                "volume": 40263872
+            },
+            "TAVHL.IS": {
+                "price": 290.0,
+                "volume": 1883974
+            },
+            "THYAO.IS": {
+                "price": 290.0,
+                "volume": 28395392
+            },
+            "TOASO.IS": {
+                "price": 304.75,
+                "volume": 2305361
+            },
+            "TUPRS.IS": {
+                "price": 255.0,
+                "volume": 30653684
+            },
+            "YKBNK.IS": {
+                "price": 34.98,
+                "volume": 109037793
+            }
+        }
+    },
+    "20": {
+        "dayNumber": 20,
+        "stocks_infos": {
+            "AKBNK.IS": {
+                "price": 75.8,
+                "volume": 105162072
+            },
+            "ARCLK.IS": {
+                "price": 114.8,
+                "volume": 1548669
+            },
+            "ASELS.IS": {
+                "price": 341.25,
+                "volume": 33575822
+            },
+            "ASTOR.IS": {
+                "price": 182.7,
+                "volume": 17206392
+            },
+            "BIMAS.IS": {
+                "price": 688.0,
+                "volume": 2974251
+            },
+            "BRYAT.IS": {
+                "price": 2251.0,
+                "volume": 59800
+            },
+            "FROTO.IS": {
+                "price": 107.9,
+                "volume": 8779332
+            },
+            "GARAN.IS": {
+                "price": 138.5,
+                "volume": 26088953
+            },
+            "HALKB.IS": {
+                "price": 40.5,
+                "volume": 43815233
+            },
+            "ISCTR.IS": {
+                "price": 14.42,
+                "volume": 529144775
+            },
+            "PETKM.IS": {
+                "price": 20.34,
+                "volume": 99733036
+            },
+            "PGSUS.IS": {
+                "price": 179.9,
+                "volume": 9212884
+            },
+            "SAHOL.IS": {
+                "price": 95.9,
+                "volume": 34664905
+            },
+            "SASA.IS": {
+                "price": 2.46,
+                "volume": 1647842542
+            },
+            "SISE.IS": {
+                "price": 44.28,
+                "volume": 47802633
+            },
+            "TAVHL.IS": {
+                "price": 294.25,
+                "volume": 1373927
+            },
+            "THYAO.IS": {
+                "price": 294.75,
+                "volume": 22876482
+            },
+            "TOASO.IS": {
+                "price": 315.25,
+                "volume": 4086560
+            },
+            "TUPRS.IS": {
+                "price": 251.5,
+                "volume": 28368721
+            },
+            "YKBNK.IS": {
+                "price": 35.98,
+                "volume": 154212347
+            }
+        }
+    }
+}
