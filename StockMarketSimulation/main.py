@@ -7,7 +7,7 @@ from agent import Agent
 import globals
 
 async def run_bot():
-    # 1. Server Ayarları
+    # Server Settings
     server_script = os.path.abspath("server.py")
     server_params = StdioServerParameters(
         command="python",
@@ -15,7 +15,7 @@ async def run_bot():
         env=os.environ.copy()
     )
 
-    # 2. Ajan Oluşturma
+    # Create agent
     MyAgent = Agent(
         system_message=""""
         You are a stock market simulation agent. Manage a virtual portfolio.
@@ -28,20 +28,19 @@ async def run_bot():
         model="gpt-4.1-mini"
     )
 
-    # 3. Simülasyon Hazırlığı
+    # simulation preparing
     globals.initialize()
     days = range(1, 21)
 
     print("--Simulation is Starting!--")
 
-    # MCP Bağlantısını Başlatıyoruz
+    # MCP connection
     async with stdio_client(server_params) as (read, write):
         async with ClientSession(read, write) as session:
-            # Server'ı başlat ve tool listesini al
             await session.initialize()
             available_tools = await session.list_tools()
             
-            # Tool şemalarını LLM'in anlayacağı formata çevir
+            # Tool schemas
             tools_for_llm = [
                 {
                     "type": "function",
@@ -53,17 +52,17 @@ async def run_bot():
                 } for tool in available_tools.tools
             ]
 
-            # --- ANA GÜN DÖNGÜSÜ ---
+            # Days loop
             for day in days:
                 globals.curr_day = str(day)
-                print(f"\n--- Day {globals.curr_day} Started ---")
+                print(f"\nDay {globals.curr_day} Started")
 
-                # O günün başlangıç mesajı
+                # start message of the day
                 user_content = f"""
                 Current Day: {globals.curr_day}
                 """
                 
-                # Gün içindeki işlem döngüsü (Tool Call Loop)
+                # Tool call loop
                 while True:
                     response = MyAgent.send_message(user_content, tools=tools_for_llm)
                     message = response.choices[0].message
@@ -100,27 +99,22 @@ async def run_bot():
                         MyAgent.messages.append(message)
                         break
 
-                # --- GÜN SONU HAFIZA TEMİZLİĞİ (YENİ EKLENEN KISIM) ---
-                # Ajanın kafası karışmasın ve token şişmesin diye tool çağrılarını temizliyoruz
+                # clean tool calls in order to reduce spent token
                 cleaned_history = []
                 for msg in MyAgent.messages:
-                    # System mesajlarını (talimatları) ve kullanıcı mesajlarını tut
                     if msg.get("role") in ["system", "user"]:
                         cleaned_history.append(msg)
-                    # Assistant mesajlarını sadece saf metin varsa tut, tool_calls kısımlarını temizle
                     elif msg.get("role") == "assistant":
-                        if msg.get("content"): # Eğer model bir açıklama yazdıysa koru
+                        if msg.get("content"):
                             cleaned_history.append({"role": "assistant", "content": msg.get("content")})
-                    # 'tool' rolündeki ham verileri tamamen sil
                     elif msg.get("role") == "tool":
                         continue
                 
                 MyAgent.messages = cleaned_history
-                # ---------------------------------------------------
 
-                print(f"--- Day {globals.curr_day} Finished ---")
+                print(f"Day {globals.curr_day} Finished")
 
-    # Simülasyonu kapat
+    # close simulation
     globals.finish_simulation()
     print("--Simulation Completed!--")
 
