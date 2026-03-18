@@ -1,11 +1,18 @@
 import json
 
-# market history
 market_history = {}
-with open("market_history.json", "r", encoding="utf-8") as f:
-    market_history = json.load(f)
-
-# portfolio
 portfolio = {}
-with open("portfolio.json", "r", encoding="utf-8") as f:
-    portfolio = json.load(f)
+curr_day = "0"
+
+def initialize():
+    with open("portfolio.json", "r", encoding="utf-8") as f:
+        global portfolio
+        portfolio = json.load(f)
+    
+    with open("market_history.json", "r", encoding="utf-8") as f:
+        global market_history
+        market_history = json.load(f)
+
+def finish_simulation():
+    with open("portfolio.json", "r", encoding="utf-8") as f:
+        json.dump(portfolio)
