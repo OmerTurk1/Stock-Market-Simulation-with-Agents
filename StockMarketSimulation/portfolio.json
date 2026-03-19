@@ -1,9 +1,21 @@
 {
-    "cash": 10000,
+    "cash": 1628.0300000000038,
     "inventory": {
+        "GARAN.IS": {
+            "quantity": 40,
+            "average_bought_price": 134.1
+        },
+        "PETKM.IS": {
+            "quantity": 35,
+            "average_bought_price": 19.954285714285714
+        },
         "AKBNK.IS": {
+            "quantity": 30,
+            "average_bought_price": 73.73333333333333
+        },
+        "FROTO.IS": {
             "quantity": 10,
-            "average_bought_price": 0
+            "average_bought_price": 105.6
         }
     },
     "total_value": 10000
