@@ -190,6 +190,13 @@ def finish_day():
         market_history = globals.read_market_history()
 
         if update_portfolio(curr_day, portfolio, market_history):
+            new_portfolio = globals.read_portfolio()
+            new_log = {
+                "cash": new_portfolio["cash"],
+                "total_value":new_portfolio["total_value"],
+                "diff_stock_number":len(list(new_portfolio["inventory"].keys()))
+            }
+            globals.append_portfolio_log(new_log)
             return {
                 "status": "success",
                 "explanation": f"Day {curr_day} finished, going to next day."

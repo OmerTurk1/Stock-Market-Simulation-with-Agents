@@ -1,5 +1,4 @@
 import json
-import os
 
 def read_market_history():
     with open("market_history.json", "r", encoding="utf-8") as f:
@@ -21,3 +20,15 @@ def read_curr_day():
 def write_curr_day(new_day):
     with open("curr_day.json", "w", encoding="utf-8") as f:
         json.dump({"curr_day": new_day}, f, indent=4, ensure_ascii=False)
+
+def append_portfolio_log(new_log):
+    data = None
+    with open("portfolio_log.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+    data[read_curr_day()] = new_log
+    with open("portfolio_log.json", "w", encoding="utf-8") as f:
+        json.dump(data,f,indent=4,ensure_ascii=False)
+
+def read_portfolio_log():
+    with open("portfolio_log.json", "r", encoding="utf-8") as f:
+        return json.load(f)

@@ -77,7 +77,7 @@ async def run_bot():
                             result = await session.call_tool(tool_name, arguments=args)
 
                             if tool_name == "finish_day":
-                                print("tool output:",result)
+                                # print("tool output:",result)
                                 print(f"[*] Agent decided to finish Day {globals.read_curr_day()}.")
                                 should_finish_day = True
                                 result_text = "Day finished successfully."

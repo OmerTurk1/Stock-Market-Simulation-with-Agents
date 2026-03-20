@@ -1,0 +1,102 @@
+{
+    "1": {
+        "cash": 10000.0,
+        "total_value": 10000.0,
+        "diff_stock_number": 0
+    },
+    "2": {
+        "cash": 10000.0,
+        "total_value": 10000.0,
+        "diff_stock_number": 0
+    },
+    "3": {
+        "cash": 10000.0,
+        "total_value": 10000.0,
+        "diff_stock_number": 0
+    },
+    "4": {
+        "cash": 10000.0,
+        "total_value": 10000.0,
+        "diff_stock_number": 0
+    },
+    "5": {
+        "cash": 5153.0,
+        "total_value": 10000.0,
+        "diff_stock_number": 2
+    },
+    "6": {
+        "cash": 1500.8999999999996,
+        "total_value": 10005.499999999998,
+        "diff_stock_number": 2
+    },
+    "7": {
+        "cash": 3915.4999999999995,
+        "total_value": 10085.48,
+        "diff_stock_number": 2
+    },
+    "8": {
+        "cash": 1742.0,
+        "total_value": 9975.55,
+        "diff_stock_number": 3
+    },
+    "9": {
+        "cash": 4925.9,
+        "total_value": 9709.15,
+        "diff_stock_number": 2
+    },
+    "10": {
+        "cash": 2609.6499999999996,
+        "total_value": 9424.65,
+        "diff_stock_number": 2
+    },
+    "11": {
+        "cash": 6814.5199999999995,
+        "total_value": 9409.65,
+        "diff_stock_number": 1
+    },
+    "12": {
+        "cash": 2498.34,
+        "total_value": 9508.34,
+        "diff_stock_number": 1
+    },
+    "13": {
+        "cash": 8224.34,
+        "total_value": 9273.34,
+        "diff_stock_number": 1
+    },
+    "14": {
+        "cash": 1917.2399999999998,
+        "total_value": 9277.239999999998,
+        "diff_stock_number": 1
+    },
+    "15": {
+        "cash": 9627.24,
+        "total_value": 9627.24,
+        "diff_stock_number": 0
+    },
+    "16": {
+        "cash": 4969.24,
+        "total_value": 9627.24,
+        "diff_stock_number": 1
+    },
+    "17": {
+        "cash": 8265.24,
+        "total_value": 9383.24,
+        "diff_stock_number": 1
+    },
+    "18": {
+        "cash": 9383.24,
+        "total_value": 9383.24,
+        "diff_stock_number": 0
+    },
+    "19": {
+        "cash": 9383.24,
+        "total_value": 9383.24,
+        "diff_stock_number": 0
+    },
+    "20": {
+        "cash": 5333.24,
+        "total_value": 9383.24,
+        "diff_stock_number": 1
+    }
+}
