@@ -28,7 +28,7 @@ def buy_stock(stock_symbol: str, quantity: int):
             }
         
         price = stocks_today[stock_symbol]["price"]
-        total_cost = price * quantity
+        total_cost = round(price * quantity,4)
 
         if total_cost > portfolio["cash"]:
             return {
@@ -44,17 +44,23 @@ def buy_stock(stock_symbol: str, quantity: int):
         
         old_quantity = portfolio["inventory"][stock_symbol]["quantity"]
         old_average = portfolio["inventory"][stock_symbol]["average_bought_price"]
-        portfolio["inventory"][stock_symbol]["average_bought_price"] = (old_quantity*old_average + total_cost) / (quantity+old_quantity)
+        portfolio["inventory"][stock_symbol]["average_bought_price"] = round(
+            (old_quantity*old_average + total_cost) / (quantity+old_quantity),
+            4
+        )
         portfolio["inventory"][stock_symbol]["quantity"] += quantity
         portfolio["cash"] -= total_cost
 
-        globals.write_portfolio(portfolio)
-
-        return {
-            "status": "success", 
-            "explanation": f"Successfully bought {quantity} shares of {stock_symbol}."
-        }
-
+        if update_portfolio(curr_day,portfolio,market_history):
+            return {
+                "status": "success", 
+                "explanation": f"Successfully bought {quantity} shares of {stock_symbol}."
+            }
+        else:
+            return {
+                "status": "error",
+                "explanation": f"An unexpected error occurred: {str(e)}"
+            }
     except Exception as e:
         return {
             "status": "error",
@@ -99,20 +105,24 @@ def sell_stock(stock_symbol: str, quantity: int):
             }
         
         price = stocks_today[stock_symbol]["price"]
-        total_revenue = price * quantity
+        total_revenue = round(price * quantity,4)
 
         portfolio["inventory"][stock_symbol]["quantity"] -= quantity
         portfolio["cash"] += total_revenue
 
         if portfolio["inventory"][stock_symbol]["quantity"] == 0:
             del portfolio["inventory"][stock_symbol]
-
-        globals.write_portfolio(portfolio)
-
-        return {
-            "status": "success",
-            "explanation": f"Successfully sold {quantity} shares of {stock_symbol} at {price} price."
-        }
+    
+        if update_portfolio(curr_day,portfolio,market_history):
+            return {
+                "status": "success",
+                "explanation": f"Successfully sold {quantity} shares of {stock_symbol} at {price} price."
+            }
+        else:
+            return {
+                "status": "error",
+                "explanation": f"An unexpected error occurred: {str(e)}"
+            }
 
     except Exception as e:
         return {
@@ -179,6 +189,24 @@ def finish_day():
         portfolio = globals.read_portfolio()
         market_history = globals.read_market_history()
 
+        if update_portfolio(curr_day, portfolio, market_history):
+            return {
+                "status": "success",
+                "explanation": f"Day {curr_day} finished, going to next day."
+            }
+        else:
+            return {
+                "status": "error",
+                "explanation": f"Failed to finish day {curr_day}: {str(e)}"
+            }
+    except Exception as e:
+        return {
+            "status": "error",
+            "explanation": f"Failed to finish day {curr_day}: {str(e)}"
+        }
+
+def update_portfolio(curr_day, portfolio, market_history):
+    try:
         stocks_today = market_history[curr_day]["stocks_infos"]
         
         cash = portfolio.get("cash", 0)
@@ -193,16 +221,9 @@ def finish_day():
         portfolio["total_value"] = total_wealth
 
         globals.write_portfolio(portfolio)
-
-        return {
-            "status": "success",
-            "explanation": f"Day {curr_day} finished, going to next day."
-        }
-    except Exception as e:
-        return {
-            "status": "error",
-            "explanation": f"Failed to finish day {curr_day}: {str(e)}"
-        }
+        return True
+    except:
+        return False
 
 if __name__ == "__main__":
     start_portfolio = {

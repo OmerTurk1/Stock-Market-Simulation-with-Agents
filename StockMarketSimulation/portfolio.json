@@ -1,10 +1,26 @@
 {
-    "cash": 9694.839999999998,
+    "cash": 3331.25,
     "inventory": {
-        "ISCTR.IS": {
-            "quantity": 5,
-            "average_bought_price": 14.419999999999998
+        "GARAN.IS": {
+            "quantity": 2,
+            "average_bought_price": 134.375
+        },
+        "AKBNK.IS": {
+            "quantity": 20,
+            "average_bought_price": 75.8
+        },
+        "BIMAS.IS": {
+            "quantity": 3,
+            "average_bought_price": 688.0
+        },
+        "ARCLK.IS": {
+            "quantity": 3,
+            "average_bought_price": 114.8
+        },
+        "TUPRS.IS": {
+            "quantity": 10,
+            "average_bought_price": 251.5
         }
     },
-    "total_value": 9766.939999999999
+    "total_value": 10047.65
 }
