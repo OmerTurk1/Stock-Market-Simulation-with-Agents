@@ -174,10 +174,41 @@ def finish_day():
     Returns:
     str: A message indicating the end of the day and any relevant updates.
     """
-    return {
-        "status": "success",
-        "explanation": f"Day {globals.read_curr_day()} finished, going to next day."
-    }
+    try:
+        curr_day = globals.read_curr_day()
+        portfolio = globals.read_portfolio()
+        market_history = globals.read_market_history()
+
+        stocks_today = market_history[curr_day]["stocks_infos"]
+        
+        cash = portfolio.get("cash", 0)
+        inventory_value = 0
+        
+        for stock_symbol, info in portfolio.get("inventory", {}).items():
+            if stock_symbol in stocks_today:
+                price = stocks_today[stock_symbol]["price"]
+                inventory_value += info["quantity"] * price
+        
+        total_wealth = cash + inventory_value
+        portfolio["total_value"] = total_wealth
+
+        globals.write_portfolio(portfolio)
+
+        return {
+            "status": "success",
+            "explanation": f"Day {curr_day} finished, going to next day."
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "explanation": f"Failed to finish day {curr_day}: {str(e)}"
+        }
 
 if __name__ == "__main__":
+    start_portfolio = {
+        "cash": 10000,
+        "inventory": {},
+        "total_value": 10000
+    }
+    globals.write_portfolio(start_portfolio)
     mcp.run()

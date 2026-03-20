@@ -23,7 +23,8 @@ async def run_bot():
         Tasks for everyday:
         1) Check the market and portfolio using tools.
         2) Perform buy/sell transactions to maximize wealth.
-        3) Call 'finish_day' ONLY when you are completely done with this day."""}
+        3) Call 'finish_day' ONLY when you are completely done with this day.
+         4) You are not allowed to talk, just use tools"""}
     ]
 
     # simulation preparing
@@ -56,7 +57,7 @@ async def run_bot():
 
                 # start message of the day
                 user_content = f"""
-                Current Day: {globals.read_curr_day()}
+                Current Day: {globals.read_curr_day()}. No talk allowed, just use tools.
                 """
                 messages.append({"role":"user","content":user_content})
                 
@@ -72,15 +73,15 @@ async def run_bot():
                         for call in message.tool_calls:
                             tool_name = call.function.name
                             args = json.loads(call.function.arguments)
+                            print(f"[*] Tool Call: {tool_name} with {args}")
+                            result = await session.call_tool(tool_name, arguments=args)
 
                             if tool_name == "finish_day":
+                                print("tool output:",result)
                                 print(f"[*] Agent decided to finish Day {globals.read_curr_day()}.")
                                 should_finish_day = True
                                 result_text = "Day finished successfully."
                             else:
-                                print(f"[*] Tool Call: {tool_name} with {args}")
-                                result = await session.call_tool(tool_name, arguments=args)
-                                # print("tool output:",result)
                                 result_text = "\n".join([c.text for c in result.content if hasattr(c, 'text')])
 
                             messages.append({

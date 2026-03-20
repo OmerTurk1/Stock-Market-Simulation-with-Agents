@@ -7,7 +7,8 @@ MODEL = "gpt-4o-mini"
 def send_to_model(messages, tools=None):
     params = {
         "model": MODEL,
-        "messages": messages
+        "messages": messages,
+        "tool_choice":"required"
     }
     if tools:
         params["tools"] = tools
